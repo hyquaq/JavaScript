@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.main {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+.main span {
+  line-height: calc(100% + 40px);
+  font-size: 50px;
+}
+
+.clear {
+  clear: both;
+}
+
+.control {
+  display: flex;
+
+  width: 100%;
+  overflow: hidden;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  margin: 0 10px;
+  font-size: 24px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgba(84, 218, 128, 0.8);
+  color: #fff;
+  outline: none;
+}
